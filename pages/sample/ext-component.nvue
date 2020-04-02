@@ -1,0 +1,21 @@
+<template>
+	<div>
+		<testmap ref='mycomponent' style="width:750rpx;height:300px" showTraffic="true" @mapLoaded="onMapLoaded"></testmap>
+	</div>
+</template>
+
+<script>
+	export default {
+		onLoad() {
+			// 调用组件方法
+			this.$nextTick(()=>{
+				this.$refs.mycomponent.focus("Hello")
+			})
+		},
+		methods: {
+			onMapLoaded(e) {
+				console.log("map loaded" + JSON.stringify(e))
+			}
+		}
+	}
+</script>
