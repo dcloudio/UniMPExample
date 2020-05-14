@@ -14,5 +14,5 @@
 ## 相关链接
 
 1. [HBuilderX 下载地址](https://www.dcloud.io/hbuilderx.html)
-2. [uni小程序SDK 文档](https://ask.dcloud.net.cn/docs/#https://ask.dcloud.net.cn/article/36941)
+2. [uni小程序SDK 文档](https://nativesupport.dcloud.net.cn/README)
 3. [uni-app 文档](https://uniapp.dcloud.io/)
